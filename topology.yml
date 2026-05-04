@@ -1,4 +1,4 @@
-name: BRICKSTORM
+name: brickstorm
 
 hosts:
   - name: c2-server
