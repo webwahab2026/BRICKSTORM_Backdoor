@@ -1,4 +1,4 @@
-name: BRICKSTORM_Backdoor_backdoor
+name: BRICKSTORM-Backdoor
 
 hosts:
   - name: c2-server

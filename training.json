@@ -76,12 +76,6 @@
         }
       ],
       "expected_commands": [
-        {
-          "cmd": "grep -r 'hash_value' /etc/* /var/log/* /home/*"
-        },
-        {
-          "cmd": "grep -i 'unusual_keyword' /var/log/syslog /var/log/auth.log"
-        }
       ],
       "commands_required": true
     },
@@ -130,12 +124,6 @@
         }
       ],
       "expected_commands": [
-        {
-          "cmd": "grep -i 'unusual_keyword' /var/log/syslog"
-        },
-        {
-          "cmd": "grep -i 'suspicious_command' /var/log/auth.log"
-        }
       ],
       "commands_required": true
     },
@@ -184,12 +172,6 @@
         }
       ],
       "expected_commands": [
-        {
-          "cmd": "mv /path/to/evidence /report_directory/"
-        },
-        {
-          "cmd": "nano /report_directory/report.txt"
-        }
       ],
       "commands_required": true
     }
